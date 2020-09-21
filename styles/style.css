@@ -1,0 +1,77 @@
+/* .  universal stuff */
+
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+body {
+    margin: 0;
+    color: white;
+    background-color: black;
+}
+
+
+/* user defined styles */
+
+.bg-grey {
+    background-color: rgba(8, 8, 8, 0.884);
+    /* background-color: rgba(8, 8, 8, 0.733); */
+    color: white;
+}
+
+.icon-nav {
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 10px;
+}
+
+.navi {
+    position: fixed;
+    height: 40px;
+    top: 0px;
+    width: 100vw;
+    background-color: dimgray;
+}
+
+.nav-links li {
+    float: right;
+    display: inline;
+    line-height: 2px;
+}
+
+.nav-links a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.navi a {
+    color: rgb(46, 45, 45);
+    padding: 0px 30px;
+    text-decoration-line: none;
+}
+
+.display {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    color: lime;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.display-img {
+    background-image: url('/assets/herobg.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+.display-text {
+    font-family: 'Rock Salt', cursive;
+    font-size: 40px;
+    transform: translateY(20vh);
+    color: white;
+}
+
+.display span {
+    color: black;
+}
