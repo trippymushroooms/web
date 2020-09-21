@@ -34,13 +34,12 @@ body {
 
 .nav-links li {
     float: right;
-    display: inline;
+    display: flex;
     line-height: 2px;
 }
 
 .nav-links a:hover {
     color: white;
-    text-decoration: underline;
 }
 
 .navi a {

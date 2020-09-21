@@ -3,7 +3,6 @@
 <head>
     <title>FoC</title>
     <link rel="stylesheet" type="text/css" href="styles/style.css">
-    <link rel="stylesheet" type="text/css" href="styles/button.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,30 +32,26 @@
     <br>
     <br>
     <section>
-        <h1 class="text-white bg-dark"> Not Gates</h1>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm">
-                    <div class="switch switch--horizontal">
-                        <input id="radio-a" type="radio" name="first-switch" checked="checked" onclick="textOn()" />
-                        <label for="radio-a">On</label>
-                        <input id="radio-b" type="radio" name="first-switch" onclick="textOff()" />
-                        <label for=" radio-b ">Off</label><span class="toggle-outside "><span class="toggle-inside "></span></span>
-                    </div>
-                </div>
-                <div class="col-sm " id="notOn ">
-                    <p id="notOn ">Not On</p>
-                    <img src="assets/notOn.png " alt="Not On ">
-                </div>
+        <center>
+            <h1 class="text-white"> Not Gates</h1>
+        </center>
 
+        <center>
+            <div>
+                <p><button onclick="document.getElementById('notOn').src='assets/notOn.png'">
+                        On</button></p>
+                <p><button onclick="document.getElementById('notOn').src='assets/notOff.png'"> Off
+                    </button></p>
+
+                <img id="notOn" src="assets/notOn.png " alt="Not On ">
             </div>
-        </div>
+        </center>
+
     </section>
     <footer>
         <p>@ Powered by UB</p>
     </footer>
 
-    <script src="js/main.js"></script>
 </body>
 
 </html>
