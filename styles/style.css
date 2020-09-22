@@ -32,6 +32,10 @@ body {
 
 .icon-nav h3:hover {
     color: aqua;
+}
+
+.icon-nav a:hover {
+    color: aqua;
     text-decoration-line: none;
 }
 
