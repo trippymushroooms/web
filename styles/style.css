@@ -17,10 +17,22 @@ body {
 }
 
 .icon-nav {
-    display: block;
+    display: flex;
     position: absolute;
-    top: 1px;
+    top: 8px;
     left: 10px;
+    font-family: 'Rock Salt';
+    font-style: normal;
+}
+
+.icon-nav h3 {
+    color: rgb(40, 43, 46);
+    font-size: 20px;
+}
+
+.icon-nav h3:hover {
+    color: aqua;
+    text-decoration-line: none;
 }
 
 .navi {
@@ -28,7 +40,7 @@ body {
     height: 40px;
     top: 0px;
     width: 100vw;
-    background-color: dimgray;
+    background-color: rgba(212, 191, 191, 0.397);
     z-index: 1000;
     /* border-bottom: 2px rgb(218, 239, 253) solid; */
     font-size: 20px;
