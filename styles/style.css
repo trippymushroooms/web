@@ -25,6 +25,10 @@ body {
     font-style: normal;
 }
 
+.icon-nav a {
+    text-decoration: none;
+}
+
 .icon-nav h3 {
     color: rgb(40, 43, 46);
     font-size: 20px;
