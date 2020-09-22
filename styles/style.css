@@ -74,7 +74,7 @@ body {
     position: relative;
     font-family: 'Rock Salt', cursive;
     font-size: 40px;
-    transform: translateY(10vh);
+    transform: translateY(20vh);
     color: white;
     z-index: -2;
 }
