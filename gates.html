@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
-    <title>Document</title>
+    <title>Logic Gates</title>
 </head>
 
 <body class="bg-grey">
@@ -37,71 +37,83 @@
     <br>
     <br>
     <article>
-        <p></p>
+
         <center>
-            <h1 class="text-white-50">Projects </h1>
+            <h1 class="text-white-50">Project 1: <br> <u>Logic Gates</u> </h1>
         </center>
+        <br>
         <br>
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-                        <div class="card-header">Logic Gates</div>
-                        <div class="card-body">
-                            <h5 class="card-title"><u>NOT</u></h5>
-                            <p class="card-text">In this project I demonstrate NOT gates.</p>
-                            <div class="mx-auto">
-                                <center>
-                                    <p><a href="noot.html" class="btn btn-primary">Link</a></p>
-                                </center>
+                    <section>
+                        <center>
+                            <h1 class="text-white"> Not Gates</h1>
+                        </center>
+
+                        <center>
+                            <div>
+                                <p><button onclick="document.getElementById('notOn').src='assets/notOn.png'">
+                                        On</button></p>
+                                <p><button onclick="document.getElementById('notOn').src='assets/notOff.png'"> Off
+                                    </button></p>
+
+                                <img id="notOn" src="assets/notOn.png " alt="Not On ">
                             </div>
+                        </center>
+
+                    </section>
+                </div>
+                <center>
+                    <div class="col">
+                        <h3>OR</h3>
+                        <div>
+
+                            <p><button style="background-color:black; color:white; width: 100px; height: 40px;" onclick="document.getElementById('belizeImage').src='assets/or1.png'"> 1 1 </button></p>
+                            <p><button style="background-color:black; color:white; width: 100px; height: 40px;" onclick="document.getElementById('belizeImage').src='assets/or0.png'"> 0 0 </button></p>
+                            <p><button style="background-color:black; color:white; width: 100px; height: 40px;" onclick="document.getElementById('belizeImage').src='assets/or10.png'"> 1 0 </button></p>
+                            <p><button style="background-color:black; color:white; width: 100px; height: 40px;" onclick="document.getElementById('belizeImage').src='assets/or01.png'"> 0 1 </button></p>
+
+                            <img id="belizeImage" src="assets/or1.png" alt="noton" width="420" height="100">
+
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-                        <div class="card-header">Logic Gates</div>
-                        <div class="card-body">
-                            <h5 class="card-title"><u>OR</u></h5>
-                            <p class="card-text">In this project I demonstrate the OR gates.</p>
-                            <div class="mx-auto">
-                                <center>
-                                    <p><a href="or.html" class="btn btn-primary">Link</a></p>
-                                </center>
-                            </div>
+                </center>
+                <center>
+                    <div class="col">
+                        <h3>XOR</h3>
+                        <div>
+
+                            <p><button style="background-color:black; color:white; width: 100px; height: 40px;" onclick="document.getElementById('belizeImage').src='assets/xor10.png'"> 1 1 </button></p>
+                            <p><button style="background-color:black; color:white; width: 100px; height: 40px;" onclick="document.getElementById('belizeImage').src='assets/xor0.png'"> 0 0 </button></p>
+                            <p><button style="background-color:black; color:white; width: 100px; height: 40px;" onclick="document.getElementById('belizeImage').src='assets/xor101.png'"> 1 0</button></p>
+                            <p><button style="background-color:black; color:white; width: 100px; height: 40px;" onclick="document.getElementById('belizeImage').src='assets/xor011.png'"> 0 1</button></p>
+
+
+
+
+                            <img id="belizeImage" src="assets/xor10.png" alt="noton" width="420" height="100">
+
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-                        <div class="card-header">Logic Gates</div>
-                        <div class="card-body">
-                            <h5 class="card-title"><u>XOR</u></h5>
-                            <p class="card-text">In this project I demonstrate XOR gates.</p>
-                            <div class="mx-auto">
-                                <center>
-                                    <p><a href="xor.html" class="btn btn-primary">Link</a></p>
-                                </center>
-                            </div>
+                </center>
+                <center>
+                    <div class="col">
+                        <h3>AND</h3>
+                        <div>
+
+                            <p><button style="background-color:black; color:white; width: 100px; height: 40px;" onclick="document.getElementById('belizeImage').src='./assets/and1.png'"> 1 1 </button></p>
+                            <p><button style="background-color:black; color:white; width: 100px; height: 40px;" onclick="document.getElementById('belizeImage').src='./assets/and0.png'">0 0</button></p>
+                            <p><button style="background-color:black; color:white; width: 100px; height: 40px;" onclick="document.getElementById('belizeImage').src='./assets/and10.png'">1 0</button></p>
+                            <p><button style="background-color:black; color:white; width: 100px; height: 40px;" onclick="document.getElementById('belizeImage').src='./assets/and01.png'">0 1</button></p>
+
+
+                            <img id="belizeImage" src="assets/and1.png" alt="noton" width="410" height="90">
+
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-                        <div class="card-header">Logic Gates</div>
-                        <div class="card-body">
-                            <h5 class="card-title"><u>AND</u></h5>
-                            <p class="card-text">In this project I demonstrate AND gates.</p>
-                            <div class="mx-auto">
-                                <center>
-                                    <p><a href="and.html" class="btn btn-primary">Link</a></p>
-                                </center>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                </center>
+
 
     </article>
 
