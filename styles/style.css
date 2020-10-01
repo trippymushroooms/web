@@ -46,6 +46,22 @@ body {
     text-decoration-line: none;
 }
 
+#home-nav li {
+    display: inline;
+    line-height: 2px;
+}
+
+#home-nav {
+    text-align: center;
+}
+
+#home-nav a:hover {
+    color: white;
+    font-weight: 800;
+    font-size: 25px;
+    text-decoration: none;
+}
+
 .navi {
     position: absolute;
     height: 40px;
