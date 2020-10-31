@@ -1,15 +1,16 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>NOT GATE</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
+    <title> FLIP FLOP </title>
 </head>
 
-<body class="bg-grey">
+<body>
     <header class="bg-dark text-primary">
         <nav>
             <div class="navi">
@@ -31,30 +32,15 @@
                 </div>
             </div>
         </nav>
+        <br>
+        <br>
+
+        <center> <img id="myImage" src="assets/flip000.png" style="width:400px"> </center>
+        <center><button onclick="document.getElementById('myImage').src='assets/flip110.png'">Upper Input: On / Lower Input: Off</button>
+            <button onclick="document.getElementById('myImage').src='assets/flip010.png'">Upper Input: Off / Lower Input: Off</button>
+            <button onclick="document.getElementById('myImage').src='assets/flip011.png'">Upper Input: Off / Lower Input: On</button>
+            <button onclick="document.getElementById('myImage').src='assets/flip000.png'">Reset</button></center>
     </header>
-    <br>
-    <br>
-    <section>
-        <center>
-            <h1 class="text-white"> Not Gates</h1>
-        </center>
-
-        <center>
-            <div>
-                <p><button onclick="document.getElementById('notOn').src='assets/notOn.png'">
-                        On</button></p>
-                <p><button onclick="document.getElementById('notOn').src='assets/notOff.png'"> Off
-                    </button></p>
-
-                <img id="notOn" src="assets/notOn.png " alt="Not On ">
-            </div>
-        </center>
-
-    </section>
-    <footer>
-        <p>@ Powered by UB</p>
-    </footer>
-
 </body>
 
 </html>
