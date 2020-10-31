@@ -1,10 +1,7 @@
 /* .  universal stuff */
 
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
-body {
-    margin: 0;
-}
-
+@import '~normalize.css';
 
 /* user defined styles */
 
