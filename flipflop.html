@@ -1,52 +1,46 @@
 <!DOCTYPE html>
-<html>
-<title>FoC</title>
-<link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <title> FLIP FLOP </title>
 </head>
-<body style="background-color:LightCyan;">
 
-<header style="background-color:skyblue;">
-  <h2 style="font-family:jokerman; text-align:center;">Flip-flop Circuits</h2>
-</header>
+<body>
+    <header class="bg-dark text-primary">
+        <nav>
+            <div class="navi">
+                <div class="icon-nav">
 
-<section>
-  <nav  style="background-color:LightCyan;">
-    <ul>
-      <li><h5 style="font-family:jokerman;"><a href="index.html">Course</a></h5></li>
-      <li><h5 style="font-family:jokerman;"><a href="project_2018118785.html">Project</a></h5></li>
-	  <li><h5 style="font-family:jokerman;"><a href="concepts_2018118785.html">Concepts</a></h5></li>
-	  <li><h5 style="font-family:jokerman;"><a href="database_2018118785.html">Databases</a></h5></li>
-	  <li><h5 style="font-family:jokerman;"><a href="documentation_2018118785.html">Documentation</a></h5></li>
-      <li><h5 style="font-family:jokerman;"><a href="aboutme_2018118785.html">Dev Team</a></h5></li>
-    </ul>
-  </nav>
+                    <h3>
+                        <a href="index.html">F O C</a>
+                    </h3>
+                </div>
+                <div class="nav-links nav-drop">
+                    <ul>
+                        <li><a href="course.html">Course</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="concepts.html">Concepts</a></li>
+                        <li><a href="database.html">Databases</a></li>
+                        <li><a href="documentation.html">Docs</a></li>
+                        <li><a href="about.html">Dev Team</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <br>
+        <br>
 
-
-  <article>
-  
-<button onclick="document.getElementById('myImage').src='flipfloponoffon.png'">Upper Input: On / Lower Input: Off</button> <button onclick="document.getElementById('myImage').src='flipflopoffoffon.png'">Upper Input: Off / Lower Input: Off</button>
-	
-
-<center> <img id="myImage" src="flipflopoffoffoff.png" style="width:400px"> </center>
-
-<button onclick="document.getElementById('myImage').src='flipflopoffonoff.png'">Upper Input: Off / Lower Input: On</button> 
-	
-
-
-	
-  </article>
-</section>
-
-<h5 style="font-family:jokerman;"><a href="project_2018118785.html">Back</a></h5>
-
-
-<footer style="background-color:skyblue;">
-  <p>@ Powered by UB</p>
-</footer>
-
+        <center> <img id="myImage" src="assets/flip000.png" style="width:400px"> </center>
+        <center><button onclick="document.getElementById('myImage').src='assets/flip110.png'">Upper Input: On / Lower Input: Off</button>
+            <button onclick="document.getElementById('myImage').src='assets/flip010.png'">Upper Input: Off / Lower Input: Off</button>
+            <button onclick="document.getElementById('myImage').src='assets/flip011.png'">Upper Input: Off / Lower Input: On</button>
+            <button onclick="document.getElementById('myImage').src='assets/flip000.png'">Reset</button></center>
+    </header>
 </body>
+
 </html>

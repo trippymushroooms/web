@@ -1,10 +1,7 @@
 /* .  universal stuff */
 
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
-body {
-    margin: 0;
-}
-
+@import '~normalize.css';
 
 /* user defined styles */
 
@@ -113,6 +110,8 @@ body {
 }
 
 .display-img {
+    height: 100%;
+    width: 100%;
     position: absolute;
     background-repeat: no-repeat;
     z-index: -3;
