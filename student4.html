@@ -44,19 +44,50 @@
 
     </center>
     <center>
-        <button class="btn-dark" onclick="document.getElementById('myImage').src='assets/errorcodes.jpeg' ">Error Code Correction</button>
         <br> <br>
 
-        <button class="btn-dark" onclick="document.getElementById('myImage').src='assets/twosadd.png'">Two`s Complement subtraction and addition</button>
-        <button class="btn-dark" onclick="document.getElementById('myImage').src='assets/twosstore.png'">Two`s Complement storing in memory</button>
+        <button class="btn-dark" onclick="document.getElementById('myImage').src='assets/twosadd.png'; show();">Two`s Complement subtraction and addition</button>
+        <button class="btn-dark" onclick="document.getElementById('myImage').src='assets/twosstore.png'; show();">Two`s Complement storing in memory</button>
         <br> <br>
 
-        <button class="btn-dark" onclick="document.getElementById('myImage').src='assets/excessnotation.jpeg'">Excess Notation</button>
-        <button class="btn-dark" onclick="document.getElementById('myImage').src='assets/floatingpoint.png'">Floating Point Notation</button>
+        <button class="btn-dark" onclick="document.getElementById('myImage').src='assets/excessnotation.jpeg'; hide();">Excess Notation</button>
+        <button class="btn-dark" onclick="document.getElementById('myImage').src='assets/floatingpoint.png'; hide();">Floating Point Notation</button>
+        <button class="btn-dark" onclick="document.getElementById('myImage').src='assets/errorcodes.jpeg'; hide();">Error Code Correction</button>
+
     </center>
+    <br>
+    <div id="hidden">
+        <center>
+
+            <form>
+                1st Number (min: -8, max 7): <input type="text" id="firstNumber">
+                <br>
+                <br> 2nd Number (min: -8, max 7): <input type="text" id="secondNumber"><br> <br>
+
+                <input type="button" onclick="convert()" value="Convert">
+
+            </form>
+            <br>
+
+            <p>The twos complement for first number <strong id="displayFirstNumber"></strong> is :
+                <span id="resultNumber1"></span>
+            </p>
+            <p>The twos complement for second number <strong id="displaySecondNumber"></strong> is :
+                <span id="resultNumber2"></span>
+            </p>
+
+            <p>The twos complement binary addition of the 2 numbers is :
+                <span id="resultAddition"></span>
+            </p>
+            <p>The base ten addition of the 2 numbers is :
+                <span id="intAddition"></span>
+
+                <script src="js/twosComplement.js"></script>
 
 
-
+            </p>
+        </center>
+    </div>
 </body>
 
 </html>
